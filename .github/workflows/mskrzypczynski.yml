@@ -57,3 +57,4 @@ jobs:
         with:
           push: true
           tags: mikczynski/zadanie2_pfwcho
+          
