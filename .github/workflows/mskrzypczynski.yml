@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Timestamp
-        uses: gerred/actions/current-time@master
+        uses: gerred/actions/currentgit p-time@master
         id: current-time
 
       - name: Run String Replace
@@ -36,7 +36,7 @@ jobs:
           environment_name: Mskrzypczynskizad2-env
           existing_bucket_name: elasticbeanstalk-us-east-1-413069729954
           version_label: "docker-app-${{ steps.format-time.outputs.replaced }}"
-          region: us-east-21
+          region: us-east-1
           deployment_package: deploy.zip
 
       -
