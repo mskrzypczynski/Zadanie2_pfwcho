@@ -4,6 +4,9 @@ Zadanie 2 z przedmiotu Programowanie Fullstack w Chmurze Obliczeniowej
 Link do aplikacji na AWS:
 http://mskrzypczynskizad2-env.eba-mfa7wmmz.us-east-1.elasticbeanstalk.com/
 
+Link do repozytorium dockerhub:
+https://hub.docker.com/repository/docker/mikczynski/zadanie2_pfwcho
+
 ### CZĘŚĆ OBOWIĄZKOWA
 
 1. Proszę uruchomić przygotowaną aplikację na platformie AWS, usługa EBS. W tym celu należy
@@ -27,5 +30,18 @@ konfiguracyjnego, który jest dostępny na moodle w katalogu Zadanie 2 (plik: za
 
 ![image](https://user-images.githubusercontent.com/49763989/174076909-1aab76a8-a05e-4678-adb4-d522edf2bd1e.png)
 
+![image](https://user-images.githubusercontent.com/49763989/174086923-9f6f9815-0acf-42b6-9ec4-3a973ad7357d.png)
+
+![image](https://user-images.githubusercontent.com/49763989/174086982-8dd4fc27-cac6-48ef-8d0b-9c4ba1f7cd9b.png)
+
 
 ### CZĘŚĆ DODATKOWA
+
+Zadanie w tej części polega na rozbudowaniu pliku wdrożenia w GitHub Action. W ramach tego rozszerzenia:
+
+- a. GitHub Ations ma zbudować obraz aplikacji i przesłać go na repozytorium DockerHub. Proszę w tym celu wykorzystać wiedzę i konfigurację przygotowaną w ramach zadania nr 1.
+
+Do pliku .yml w katalogu workflows dodano actions pozwalające na autoryzację i przesłanie obrazu do repozytoirum DockerHub.
+![image](https://user-images.githubusercontent.com/49763989/174086735-4db665c9-3687-42b4-8f1a-51015323c187.png)
+
+![image](https://user-images.githubusercontent.com/49763989/174086379-fa9933bc-ba10-427b-ab4d-8c9a352efe12.png)
