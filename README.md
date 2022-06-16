@@ -1,6 +1,9 @@
 # Zadanie2_pfwcho
 Zadanie 2 z przedmiotu Programowanie Fullstack w Chmurze Obliczeniowej
 
+Link do aplikacji na AWS:
+http://mskrzypczynskizad2-env.eba-mfa7wmmz.us-east-1.elasticbeanstalk.com/
+
 ### CZĘŚĆ OBOWIĄZKOWA
 
 1. Proszę uruchomić przygotowaną aplikację na platformie AWS, usługa EBS. W tym celu należy
